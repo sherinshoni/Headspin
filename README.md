@@ -23,9 +23,9 @@ Q2.  Write a function that takes a list of strings and prints them one per line 
             Output:    *********
                        * Hello *
                        * World *
-	                     * in    *
-	                     * a     *
-	                     * frame *
+	               * in    *
+	               * a     *
+	               * frame *
                        *********
                        
                        
