@@ -2,9 +2,9 @@ current_year=2020
 current_month=06
 current_day=07
 
-d=print("Enter day in DD format : ")
-m=print("Enter month in MM format : ")
-y=print("Enter year in YYYY format : ")
+d=input("Enter day in DD format : ")
+m=input("Enter month in MM format : ")
+y=input("Enter year in YYYY format : ")
 
 if (y>=0 and 0<m<13 and 0<d<32):
 	if (y%4==0 and (y%100!=0 or y%400==0) and m==2):
