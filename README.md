@@ -70,7 +70,7 @@ Execution of the function:
 								     
 			 >>> Sum is returned to the calling function.
 			 
-Sum of the series is printed..
+Sum of the series is printed.
 
     
    
