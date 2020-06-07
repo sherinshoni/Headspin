@@ -9,9 +9,9 @@ y=input("Enter year in YYYY format : ")
 if (y>=0 and 0<m<13 and 0<d<32):
 	if (y%4==0 and (y%100!=0 or y%400==0) and m==2):
 		if d<=29:
-	        valid=True
-	    else:
-			valid=False
+	            valid=True
+	        else:
+		    valid=False
 	elif (m in [1,3,5,7,8,10,12] and d<=31):
 		valid=True
 	elif (m in [4,6,9,11] and d<=30):
