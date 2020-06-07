@@ -23,11 +23,11 @@ if (y>=0 and 0<m<13 and 0<d<32):
     else:
 	valid=False
 else:
-	valid=False
+    valid=False
 if (valid==True):
-	print("VALID DATE")
+    print("VALID DATE")
 else:
-	print("INVALID DATE")
+    print("INVALID DATE")
 		
 			
 			
