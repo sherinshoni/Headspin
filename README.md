@@ -53,8 +53,8 @@ The file sum_series.py accepts a number N from the user and prints the following
 
 Series: 1/1! + 2/2! +3/3! + …. + N/N!
 
-Function used: sum_series()
-Argument of the function: the number accepted from the user 'num'
+Function used: sum_series().
+Argument of the function: the number accepted from the user 'num'.
 
 A number 'num' is accepted from the user.
 The function sum_series() is called.
