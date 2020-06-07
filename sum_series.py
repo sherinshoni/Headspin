@@ -8,4 +8,4 @@ def sum_series(num):
 
 num=int(input("Enter the number"))
 sum=sum_series(num)
-print("Sum of the series = "+sum)
+print("Sum of the series = ",sum)
