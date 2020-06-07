@@ -56,17 +56,17 @@ Series: 1/1! + 2/2! +3/3! + …. + N/N!
 Function used: sum_series().
 Argument of the function: the number accepted from the user 'num'.
 
-A number 'num' is accepted from the user.
-The function sum_series() is called.
+1.A number 'num' is accepted from the user.
+2.The function sum_series() is called.
 
-Execution of the function:
+3.Execution of the function:
 
                          >>> A variable 'sum' is initialised to 0.
 			 >>> Variable 'fact' is initialised to 1.
-			 >>> In the for loop that ranges from 1 to num+1 :
+			 >>> In the for loop that ranges from 1 to num :
 			 
-			                                                  >>> Factorial is calculated by corresponding equation.
-								          >>> Sum is calculated by corresponding equation.
+			                                                >>> Factorial is calculated.
+								        >>> Sum is calculated.
 								     
 			 >>> Sum is returned to the calling function.
 			 
