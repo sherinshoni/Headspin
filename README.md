@@ -56,10 +56,10 @@ Series: 1/1! + 2/2! +3/3! + …. + N/N!
 Function used: sum_series().
 Argument of the function: the number accepted from the user 'num'.
 
-1.A number 'num' is accepted from the user.
-2.The function sum_series() is called.
+Step 1.A number 'num' is accepted from the user.
+Step 2.The function sum_series() is called.
 
-3.Execution of the function:
+Step 3.Execution of the function:
 
                          >>> A variable 'sum' is initialised to 0.
 			 >>> Variable 'fact' is initialised to 1.
@@ -70,7 +70,7 @@ Argument of the function: the number accepted from the user 'num'.
 								     
 			 >>> Sum is returned to the calling function.
 			 
-Sum of the series is printed.
+Step 4.Sum of the series is printed.
 
     
    
