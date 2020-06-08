@@ -64,6 +64,7 @@ The file words_rectangle.py accepts a list of words and prints one word a line i
 		
 Function used: rect_frame().
 Argument of the function: list that is accepted from the user 'element_list'.
+
 Step 1.User is asked to input the number of words 'n'.
 Step 2.An empty list is created in the name 'list1'.
 Step 3.Inside the for loop that ranges from 1 to n :
