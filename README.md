@@ -5,16 +5,16 @@ The following link is used to run and visualize the python code:  http://pythont
 
 
 
-Q1.\ 
+Q1. 
 
-check_date.py\
+check_date.py
 
 
-The file check_date.py accepts a date from the user and checks if that date is valid or not.\
+The file check_date.py accepts a date from the user and checks if that date is valid or not.
 
-Step 1.'current_year', 'current_month' and 'current_day' is initialised to present year, month and day respectively.\
-Step 2.User is asked to input day, month and year.\
-Step 3.If year >= 0 and month lies between 0 and 13 and day lies between 0 and 32:\
+Step 1.'current_year', 'current_month' and 'current_day' is initialised to present year, month and day respectively.
+Step 2.User is asked to input day, month and year.
+Step 3.If year >= 0 and month lies between 0 and 13 and day lies between 0 and 32:
                   >>>>Leap year condition is checked and also checks if month = 2.
 		            >>>>If day lies below 30:
 			             >>>>Then the variable 'valid' is initialised to True.
