@@ -18,6 +18,13 @@ Q1.  Write a program to check if a date is valid or not. Also it should not be a
 
 Q2.  Write a function that takes a list of strings and prints them one per line in a rectangular frame
 
+words_rectangle.py
+
+The file words_rectangle.py accepts a list of words and prints one word a line in the given format
+
+ Eg:  List: [“Hello”,”World”,”in”,”a”,”Frame”]
+ 
+                    *********                                                                                                                               * Hello *                                                                                                                               * World *                                                                                                                               * in    *                                                                                                                               * a     *                                                                                                                               * Frame *                                                                                                                               *********
 
 
             Eg: List: [“Hello”,”World”,”in”,”a”,”Frame”]
