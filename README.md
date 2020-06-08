@@ -3,9 +3,12 @@
 
 The following link is used to run and visualize the python code:  http://pythontutor.com/visualize.html#mode=edit  
 
+
+
 Q1.  
 
 check_date.py
+
 
 The file check_date.py accepts a date from the user and checks if that date is valid or not.
 
@@ -44,6 +47,7 @@ Q2.
 
 words_rectangle.py
 
+
 The file words_rectangle.py accepts a list of words and prints one word a line in the given format
 
  Eg:  List: [“Hello”,”World”,”in”,”a”,”Frame”]
@@ -76,10 +80,12 @@ Step 5.Working of the function :
                        
                        
                        
-----------------------------------------------------------------------------------------------------------------------------------------                  
+----------------------------------------------------------------------------------------------------------------------------------------             
+
 Q3.
 
 sum_series.py
+
 
 The file sum_series.py accepts a number N from the user and prints the following series
 
