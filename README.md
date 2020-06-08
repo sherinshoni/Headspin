@@ -14,7 +14,7 @@ The file check_date.py accepts a date from the user and checks if that date is v
 
 Step 1.'current_year', 'current_month' and 'current_day' is initialised to present year, month and day respectively.
 Step 2.User is asked to input day, month and year.
-Step 3.If year >= 0 and month lies between 0 and 13 and day lies between 0 and 32:
+Step 3.If the date lies between the limit:
                   >>>>Leap year condition is checked and also checks if month = 2.
 		            >>>>If day lies below 30:
 			             >>>>Then the variable 'valid' is initialised to True.
