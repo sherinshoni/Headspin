@@ -111,7 +111,7 @@ Step 4.Sum of the series is printed..
     
     
    
-
+![alt text](https://github.com/sherinshoni/Headspin/blob/master/image1.png)
 
 
 
