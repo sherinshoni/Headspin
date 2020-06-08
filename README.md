@@ -46,7 +46,7 @@ Step 3.Inside the for loop that ranges from 1 to n :----------------------------
 Step 4.The function rect_frame() is called passing the list 'list1'.--------------------------------------------------------------------
 Step 5.Working of the function :--------------------------------------------------------------------------------------------------------
 ------------------------------->>>>Length of the largest word is found out.-------------------------------------------------------------
-------------------------------->>>>Using corresponding print statements, the pattern asked for, is printed.----------------------
+--------------------------->>>>Using corresponding print statements, the pattern asked for, is printed.--------------------
                        
                        
                        
