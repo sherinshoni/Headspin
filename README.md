@@ -41,12 +41,12 @@ Step 1.User is asked to input the number of words 'n'.--------------------------
 Step 2.An empty list is created in the name 'list1'.------------------------------------------------------------------------------------
 Step 3.Inside the for loop that ranges from 1 to n :------------------------------------------------------------------------------------
 --------------------------------------------------->>>>User is asked to input each word.------------------------------------------------
---------------------------------------------------->>>>Each word is appended to the list 'list1'.------------------------------------
+------------------------------------------------>>>>Each word is appended to the list 'list1'.------------------------------------
                                                
 Step 4.The function rect_frame() is called passing the list 'list1'.--------------------------------------------------------------------
 Step 5.Working of the function :--------------------------------------------------------------------------------------------------------
 ------------------------------->>>>Length of the largest word is found out.-------------------------------------------------------------
-------------------------------->>>>Using corresponding print statements, the pattern asked for, is printed.-----------------------------
+------------------------------->>>>Using corresponding print statements, the pattern asked for, is printed.----------------------
                        
                        
                        
