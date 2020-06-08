@@ -116,3 +116,18 @@ Step 4.Sum of the series is printed..
     
     
    
+
+
+https://github.com/sherinshoni/Headspin/blob/master/Screenshot%20(6).png
+
+
+
+
+
+
+
+
+
+
+
+
