@@ -17,10 +17,20 @@ if (y>=0 and 0<m<13 and 0<d<32):
 	valid=True
     else:
 	valid=False
-    if (valid==True and y<=current_year and m<=current_month and d<=current_day):
-	valid=True
+    if (valid==True and y<=current_year):
+        if (y!=current_year):
+            valid=True
+        elif (m<=current_month):
+            if (m!=current_month):
+                valid=True
+            elif (d<=current_day):
+                valid=True
+            else:
+                valid=False
+        else:
+            valid=False
     else:
-	valid=False
+        valid=False
 else:
     valid=False
 if (valid==True):
