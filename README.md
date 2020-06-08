@@ -15,11 +15,10 @@ The file check_date.py accepts a date from the user and checks if that date is v
 Step 1.'current_year', 'current_month' and 'current_day' is initialised to present year, month and day respectively.
 Step 2.User is asked to input day, month and year.
 Step 3.If the date lies between the limit:
-                  >>>>Leap year condition is checked and also checks if month = 2.
-		            >>>>If day lies below 30:
-			             >>>>Then the variable 'valid' is initialised to True.
-		            >>>>else
-                                     >>>>variable 'valid' is initialised to False.
+                  >>>>Leap year condition is checked and also checks if month = 2 and if day lies below 30.
+		            >>>>Then the variable 'valid' is initialised to True.
+		  >>>>else if the month=2 and is not a leap year:
+		            >>>>Then the variable 'valid' is initialised to True.
                   >>>>else if month lies in [1,3,5,7,8,10,12] and day lies below 32:
                             >>>>variable 'valid' is initialised to True.
                   >>>>else if month lies in [4,6,9,11] and day lies below 31:
@@ -78,11 +77,7 @@ Step 5.Working of the function :
                        
                        
                        
-                       
-                       
-                       
 ----------------------------------------------------------------------------------------------------------------------------------------             
-
 Q3.
 
 sum_series.py
