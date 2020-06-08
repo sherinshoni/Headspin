@@ -1,22 +1,44 @@
 # Headspin
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Q1.  Write a program to check if a date is valid or not. Also it should not be any future date. Please do not use any inbuilt functions.
+Q1.  
 
+check_date.py
 
+The file check_date.py accepts a date from the user and checks if that date is valid or not.
 
-
-
-
-
-
+Step 1.'current_year', 'current_month' and 'current_day' is initialised to present year, month and day respectievely.
+Step 2.User is asked to input day, month and year.
+Step 3.If year >= 0 and month lies between 0 and 13 and day lies between 0 and 32:
+                  >>>>Leap year condition is checked and also checks if month = 2.
+		            >>>>If day lies below 30:
+			             >>>>Then the variable 'valid' is initialised to True.
+		            >>>>else
+                                     >>>>variable 'valid' is initialised to False.
+                  >>>>else if month lies in [1,3,5,7,8,10,12] and day lies below 32:
+                            >>>>variable 'valid' is initialised to True.
+                  >>>>else if month lies in [4,6,9,11] and day lies below 31:
+                            >>>>variable 'valid' is initialised to True.
+                  >>>>else  
+                            >>>>variable 'valid' is initialised to False.
+                  >>>>The date is checked if it is future date or not.If it is not a future date:
+                            >>>>Then variable 'valid' is initialised to True.
+                  >>>>else 
+                            >>>>The variable 'valid' is initialised to False.
+		
+Step 4.else
+                  >>>>variable 'valid' is initialised to False.
+Step 5.If valid=True
+                  >>>>then print "VALID DATE"
+       else 
+                  >>>>print "INVALID DATE"
 
 
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Q2.  Write a function that takes a list of strings and prints them one per line in a rectangular frame
+Q2. 
 
 words_rectangle.py
 
@@ -34,19 +56,18 @@ The file words_rectangle.py accepts a list of words and prints one word a line i
                        *********
                 
 		
-Function used: rect_frame().------------------------------------------------------------------------------------------------------------
-Argument of the function: list that is accepted from the user 'element_list'.----------------------------------------------------------
-
-Step 1.User is asked to input the number of words 'n'.---------------------------------------------------------------------------------
-Step 2.An empty list is created in the name 'list1'.------------------------------------------------------------------------------------
-Step 3.Inside the for loop that ranges from 1 to n :------------------------------------------------------------------------------------
-                                                   >>>>User is asked to input each word.------------------------------------------------
-                                                   >>>>Each word is appended to the list 'list1'.------------------------------------
+Function used: rect_frame().
+Argument of the function: list that is accepted from the user 'element_list'.
+Step 1.User is asked to input the number of words 'n'.
+Step 2.An empty list is created in the name 'list1'.
+Step 3.Inside the for loop that ranges from 1 to n :
+                                                   >>>>User is asked to input each word.
+                                                   >>>>Each word is appended to the list 'list1'.
                                                
-Step 4.The function rect_frame() is called passing the list 'list1'.--------------------------------------------------------------------
-Step 5.Working of the function :--------------------------------------------------------------------------------------------------------
-                               >>>>Length of the largest word is found out.-------------------------------------------------------------
-                               >>>>Using corresponding print statements, the pattern asked for, is printed.--------------------
+Step 4.The function rect_frame() is called passing the list 'list1'.
+Step 5.Working of the function :
+                               >>>>Length of the largest word is found out.
+                               >>>>Using corresponding print statements, the pattern asked for, is printed.
                        
                        
                        
