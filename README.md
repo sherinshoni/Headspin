@@ -1,4 +1,4 @@
-# Headspin
+# HeadSpin
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 The following link is used to run and visualize the python code:  http://pythontutor.com/visualize.html#mode=edit
